@@ -1,0 +1,20 @@
+:root {
+	--bg-color-primary: #005f8b;
+	--bg-color-secondary: #0f76a7;
+	--bg-color-light: #d0edfa;
+	--color-primary: #005f8b;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	color: var(--color-primary);
+}
+
+body {
+	margin: 0;
+	background-color: #ecf1f7;
+}
