@@ -6,7 +6,7 @@ import { remove } from './remove';
 
 export async function toDoRoutes(app: FastifyInstance) {
 	app.post('/', create);
-	app.post('/update/:toDoId', update);
+	app.put('/update/:toDoId', update);
 	app.delete('/delete/:toDoId', remove);
 	app.get('/', list);
 }
